@@ -1,63 +1,183 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: 32px;
+}
+body {
+  background-color: white;
 }
 
-.text {
-  color: rgb(102, 214, 245);
-  font-size: 40px;
-  text-align: center;
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
 }
-
-nav {
-  margin-top: 3px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0e0e0e;
+  border: 2px solid #0e0e0e;
+  top: 0;
   width: 100%;
-  border: 1px solid black;
-  border-radius: 20px;
-  background-color: aqua;
-  background-image: url("./cloud.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: contain;
-  height: 20vh;
-  font-size: 40px;
-  position: sticky;
 }
 
 li {
-  display: inline;
-  list-style: none;
+  float: left;
+  border-right: 1px solid #0e0e0e;
+}
+
+li a {
+  display: flex;
+  color: white;
   text-align: center;
-  letter-spacing: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-  font-size: 40px !important;
+.title {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-table {
-  /* border: 2px solid; */
-  width: 100%;
-  text-align: center;
-  padding: 30px;
-  padding-left: 150px;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #2b2a2a;
 }
 
-.cloude-img {
+.Parchase {
+  background-color: aliceblue;
+  color: #0e0e0e;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container2 {
   position: relative;
-  width: 40%;
-  top: 20px;
-  left: 400px;
-  right: 30px;
-  border: 2px solid;
+  text-align: center;
+  color: aliceblue;
+  background-color: #0e0e0e;
+  padding: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
-.plane-img {
-  position: absolute;
-  width: 20%;
-  bottom: -10px;
-  left: 500px;
 
-  border: 2px solid;
+.container-column {
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+  background-color: #0e0e0e;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container-row {
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+  background-color: #0e0e0e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  size: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.container-white {
+  position: relative;
+  text-align: center;
+  color: #0e0e0e;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-row2 {
+  position: relative;
+  text-align: center;
+  color: #0e0e0e;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  size: 100%;
+
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.title2 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  font-size: 150px;
+  letter-spacing: 5px;
+  transform: translate(-50%, -50%);
+}
+
+.img {
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.img2 {
+  width: 450px;
+  height: 400px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.dis {
+  text-align: left;
+  margin-left: 20%;
+  font-size: large;
+  padding-bottom: 5%;
+}
+.h1-dis {
+  text-align: left;
+  margin: 100px;
+  font-size: 40px;
+}
+.butt {
+  background-color: #0e0e0e;
+  color: white;
+  width: 7em;
+  height: 1em;
+  text-align: center;
+}
+
+.s2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.img3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.title3 {
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
+  margin-bottom: 100px;
+  text-align: center;
 }
